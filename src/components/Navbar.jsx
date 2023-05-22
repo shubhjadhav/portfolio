@@ -52,6 +52,7 @@ const Navbar = () => {
           <div className="flex items-center cursor-pointer">
             <a
               href="/"
+              style={{display:"none"}}
               className={
                 darkMode
                   ? "text-xl font-medium text-decoration-none whitespace-nowrap text-black"
